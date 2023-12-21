@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Display</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    select {
+      height: 100px;
+      width: 150px;
+      padding: 5px;
+    }
+    button {
+      width: 30px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <label for="fileInput">Select JSON file:</label>
+      <input type="file" id="fileInput" accept=".json" />
+      <button onclick="handleFile()">Load Data</button>
+    </div>
+    <div>
+      <label for="displayOptions">Display Handling Options:</label>
+      <select id="displayOptions" multiple size="5"></select>
+      <button onclick="addOption()">>></button>
+      <button onclick="removeOption()">&lt;&lt;</button>
+    </div>
+  </div>
+
+  <table id="productTable">
+    <thead>
+      <tr id="tableHeader"></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script>
+    let selectedOptions = [];
+
+    function handleFile() {
+      const fileInput = document.getElementById('fileInput');
+      const file = fileInput.files[0];
+
+      if (file) {
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+          const jsonData = JSON.parse(e.target.result);
+          setupDisplayOptions(jsonData);
+          displayData(jsonData);
+        };
+
+        reader.readAsText(file);
+      } else {
+        alert('Please select a valid JSON file.');
+      }
+    }
+
+    function setupDisplayOptions(data) {
+      const displayOptions = document.getElementById('displayOptions');
+      displayOptions.innerHTML = '';
+
+      const products = data.products || {};
+      const sampleProduct = Object.values(products)[0] || {};
+
+      Object.keys(sampleProduct).forEach((key) => {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = key;
+        displayOptions.appendChild(option);
+      });
+    }
+
+    function addOption() {
+      const displayOptions = document.getElementById('displayOptions');
+      const selected = Array.from(displayOptions.selectedOptions).map(option => option.value);
+
+      selectedOptions = selectedOptions.concat(selected);
+      updateTable();
+    }
+
+    function removeOption() {
+      const displayOptions = document.getElementById('displayOptions');
+      const selected = Array.from(displayOptions.selectedOptions).map(option => option.value);
+
+      selectedOptions = selectedOptions.filter(option => !selected.includes(option));
+      updateTable();
+    }
+
+    function updateTable() {
+      const tableHeader = document.getElementById('tableHeader');
+      const tableBody = document.getElementById('tableBody');
+      tableHeader.innerHTML = '';
+
+      selectedOptions.forEach((option) => {
+        const th = document.createElement('th');
+        th.textContent = option;
+        tableHeader.appendChild(th);
+      });
+
+      displayData();
+    }
+
+    function displayData() {
+      const tableBody = document.getElementById('tableBody');
+      tableBody.innerHTML = '';
+
+      const products = jsonData.products || {};
+      const sortedProducts = Object.values(products).sort((a, b) => {
+        return parseInt(b.popularity, 10) - parseInt(a.popularity, 10);
+      });
+
+      sortedProducts.forEach((product, index) => {
+        const row = document.createElement('tr');
+
+        selectedOptions.forEach((option) => {
+          const td = document.createElement('td');
+          td.textContent = product[option] || 'N/A';
+          row.appendChild(td);
+        });
+
+        tableBody.appendChild(row);
+      });
+    }
+  </script>
+</body>
+</html>
