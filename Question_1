@@ -1,0 +1,19 @@
+import json
+
+# Step 1: Read the JSON file
+with open('products.json', 'r') as file:
+    data = json.load(file)
+
+# Step 2 and 3: Store the data in a list of dictionaries
+products = data.get('products', {}).values()
+
+# Step 4: Sort the data based on descending popularity (convert 'popularity' to int if possible)
+products_sorted = sorted(products, key=lambda x: int(x.get('popularity', '0')), reverse=True)
+
+# Step 5: Display the sorted data with Title and Price
+for product_id, product in enumerate(products_sorted, start=1):
+    title = product.get('title', 'N/A')
+    price = product.get('price', 'N/A')
+    print(f"{product_id}. Title: {title}, Price: {price}")
+
+# Note: This will print Titles and Prices in descending order of popularity.
