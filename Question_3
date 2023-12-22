@@ -74,3 +74,165 @@
   </script>
 </body>
 </html>
+
+
+
+
+
+
+<!-- new html page after clicking the website -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Content-Style-Type" content="text/css"/>
+        <meta name="generator" content="Aspose.Words for .NET 23.11.0"/>
+        <title></title>
+        <style type="text/css">
+            body {
+                font-family: 'Times New Roman';
+                font-size: 12pt
+            }
+
+            p {
+                margin: 0pt
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p style="margin-top:29.65pt; text-align:justify; line-height:13.4pt">
+                <span style="font-family:Calibri; font-size:11pt">Company</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:3.8pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Metrics</span>
+            </p>
+            <p style="margin-top:17.3pt; margin-left:17.4pt; text-align:justify; line-height:14.6pt">
+                <span style="font-family:Calibri">$406,411.29</span>
+                <span style="font-family:Calibri; letter-spacing:151.8pt"></span>
+                <span style="font-family:Calibri">$620</span>
+                <span style="font-family:Calibri; letter-spacing:180pt"></span>
+                <span style="font-family:Calibri">655</span>
+                <span style="font-family:Calibri; letter-spacing:185.85pt"></span>
+                <span style="font-family:Calibri">735</span>
+            </p>
+            <p style="margin-top:0.05pt; margin-left:16.9pt; line-height:34.55pt">
+                <span style="font-family:Calibri; font-size:10pt">Total</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:2.55pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Revenue</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:152.25pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Total</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:2.3pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Jobs</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:4.5pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Avg</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:140.25pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Tickets</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:4.85pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Created</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:137.35pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Tickets</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:4.85pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">Scheduled </span>
+                <span style="font-family:Calibri">$110,448.8</span>
+                <span style="font-family:Calibri; letter-spacing:158.35pt"></span>
+                <span style="font-family:Calibri">105</span>
+                <span style="font-family:Calibri; letter-spacing:185.1pt"></span>
+                <span style="font-family:Calibri">436</span>
+                <span style="font-family:Calibri; letter-spacing:186.55pt"></span>
+                <span style="font-family:Calibri">65 </span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:0.05pt">OutstandingAmount</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:120.55pt"></span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:0.1pt">MembershipsSold</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:121.4pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Jobs</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:3pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Completed</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:130.5pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Total</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:0.25pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Canceled</span>
+            </p>
+            <p style="margin-top:38.05pt; margin-left:1.2pt; text-align:justify; line-height:13.4pt">
+                <span style="font-family:Calibri; font-size:11pt">Revenue</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:2.8pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">By</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:0.8pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Job</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:2.25pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Location</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:301.5pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Revenue</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:2.8pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">By</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:1.05pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Job</span>
+                <span style="font-family:Calibri; font-size:11pt; letter-spacing:1.5pt"></span>
+                <span style="font-family:Calibri; font-size:11pt">Type</span>
+            </p>
+            <p style="margin-top:44.3pt; margin-left:47.6pt; text-align:justify; line-height:12.15pt">
+                <span style="font-family:Calibri; font-size:8pt">Everett</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:363.55pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">Service</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:0.05pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">Plumbing</span>
+            </p>
+            <p style="margin-top:10.8pt; margin-left:47.85pt; text-align:justify; line-height:13.1pt">
+                <span style="font-family:Calibri; font-size:8pt">Seattle</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:369.55pt"></span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:0.15pt">BidWorkHVAC</span>
+            </p>
+            <p style="margin-top:9.6pt; margin-left:38.15pt; text-align:justify; line-height:14.55pt">
+                <span style="font-family:Calibri; font-size:8pt">Lynnwood</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:373pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">Service HVAC</span>
+            </p>
+            <p style="margin-top:7.7pt; margin-left:431.75pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:0.1pt">BidWorkPlumbing</span>
+            </p>
+            <p style="margin-left:48.3pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt">Bothell</span>
+            </p>
+            <p style="margin-top:6.45pt; margin-left:432.2pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt">HWT Replacement</span>
+            </p>
+            <p style="margin-left:43.75pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt">Mukilteo</span>
+            </p>
+            <p style="margin-top:5pt; margin-left:450.8pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt">Maintenance</span>
+            </p>
+            <p style="margin-left:40.35pt; text-align:justify; line-height:9.75pt">
+                <span style="font-family:Calibri; font-size:8pt">Edmonds</span>
+            </p>
+            <p style="margin-left:55.8pt; text-align:center; line-height:17.35pt">
+                <span style="font-family:Calibri; font-size:8pt">©</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:5.05pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">&amp;Aan E/"2009LZ"S45Eo,“20092“$A, X“2009 &amp;“9</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:6.5pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">72009“49</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:4.85pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">X“2009 &amp;“4p</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:2.55pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">“200g</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:160.35pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">Materiala)Sale</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:12.15pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">=2009</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:18.5pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">%o</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:11.9pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">27009</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:7.9pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">77009</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:7.4pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">79,</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:21.35pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">7deg</span>
+                <span style="font-family:Calibri; font-size:10pt; letter-spacing:14.45pt"></span>
+                <span style="font-family:Calibri; font-size:10pt">7.oq, </span>
+                <span style="font-family:Calibri; font-size:8pt">RevenueforNovember2019</span>
+                <span style="font-family:Calibri; font-size:8pt; letter-spacing:338.1pt"></span>
+                <span style="font-family:Calibri; font-size:8pt">RevenueforNovember2019</span>
+            </p>
+        </div>
+    </body>
+</html>
