@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #login-container {
+      background-color: #000;
+      color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    #error-message {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="login-container">
+    <h2>SMARTSERV Login</h2>
+    <label for="username">Username (Email):</label>
+    <input type="text" id="username" placeholder="Enter email" />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter password" />
+
+    <button onclick="login()">Login</button>
+    <p id="error-message"></p>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const errorMessage = document.getElementById('error-message');
+
+      // Validate email format
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(username)) {
+        errorMessage.textContent = 'Invalid email format';
+        return;
+      }
+
+      // Validate password format
+      const passwordRegex = /^(?=.*[A-Z])(?=.*\d)[A-Za-z\d@]+$/;
+      if (!passwordRegex.test(password)) {
+        errorMessage.textContent = 'Invalid password format';
+        return;
+      }
+
+      // Clear previous error messages
+      errorMessage.textContent = '';
+
+      // You can add further logic for authentication or redirecting to a dashboard here
+      console.log('Username:', username);
+      console.log('Password:', password);
+    }
+  </script>
+</body>
+</html>
